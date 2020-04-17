@@ -35,6 +35,12 @@ For me I need:
 ```softwareupdate --list``` to see what's available and then 
  ```softwareupdate --install -a``` to install all updates or ```softwareupdate --install <product name>```
  to update ``` xcode-select --install```
+ 
+or this:
+```
+sudo rm -rf /Library/Developer/CommandLineTools
+xcode-select --install
+```
 
 Once the dependencies are installed, the following build commands are available:
 
