@@ -18,8 +18,10 @@ opam install ounit core ppx_sexp_conv sexplib core_bench menhir ppx_deriving cam
 
 Next, install the BDD library `mlcuddidl` (by cloning into a separate directory):
 
+(said to be ```git clone git@github.com:SHoltzen/mlcuddidil.git``` in their original readme)
+
 ```
-git clone git@github.com:SHoltzen/mlcuddidil.git
+git clone https://github.com/SHoltzen/mlcuddidil.git
 cd mlcuddidil
 ./configure && make && make install
 ```
