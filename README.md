@@ -16,6 +16,11 @@ eval `opam config env`     # optional: add this line to your .bashrc
 opam install ounit core ppx_sexp_conv sexplib core_bench menhir ppx_deriving camlidl
 ```
 
+Seems that I need this:
+```
+opam switch create name-of-switch ocaml-base-compiler.4.08.1
+```
+
 Next, install the BDD library `mlcuddidl` (by cloning into a separate directory):
 
 (said to be ```git clone git@github.com:SHoltzen/mlcuddidil.git``` in their original readme)
